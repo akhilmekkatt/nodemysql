@@ -2,7 +2,7 @@ const express = require('express');
 const mysql = require('mysql');
 const app = express();
 // Create connection
-const db = mysql.createConnection({
+/*const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '',
@@ -79,7 +79,7 @@ app.get('/deletepost/:id', (req, res) => {
         console.log(result);
         res.send('Post deleted...');
     });
-});
+});*/
 
 app.listen('3000', () => {
     console.log('Server started on port 3000');
