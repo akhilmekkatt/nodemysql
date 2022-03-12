@@ -1,2 +1,2 @@
-# Express Sql Connection Application
-* node mysql server
+# CRUD Express Sql Connection Application
+* CRUD application using Express server and mysql DB
